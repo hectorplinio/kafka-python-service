@@ -1,0 +1,57 @@
+# bash
+.bash_history
+.local
+.ash_history
+
+# Language: Python
+.coverage
+.cache
+.ipython
+.mypy_cache
+.pdbhistory
+.python_history
+coverage_exchange
+Pipfile
+
+# MacOS
+.DS_Store
+
+# enviroment
+.env
+.env.local
+venv/
+
+# codeship
+*.aes
+ci.env
+ci.args
+ci.env.staging
+ci.args.staging
+
+# PyCharm editor settings
+.idea
+__pycache__
+
+# Visual Studio Code
+/.vscode/
+/.vscode-server/
+/.gitconfig
+/.devcontainer
+
+service/adapters/db/migrate/README
+*.gz
+*.aes
+
+# PostgreSQL
+.psql_history
+
+# OpenAPI3.0
+site/
+
+# Node
+node_modules/
+package.json
+package-lock.json
+
+uploads/*
+!uploads/.gitkeep
