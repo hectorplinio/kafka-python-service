@@ -1,6 +1,6 @@
 import pytest
 
-from src.services.health_service import HealthService
+from src.services.health.health_service import HealthService
 
 
 @pytest.fixture

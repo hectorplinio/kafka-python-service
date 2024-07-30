@@ -1,6 +1,6 @@
-FROM python:3.11.4-alpine3.18
+FROM python:3.11-slim-buster
 
-WORKDIR /src
+WORKDIR /app
 
 COPY requirements.txt .
 
@@ -10,6 +10,8 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-EXPOSE 5000
+EXPOSE 3000
 
-CMD ["python", "src/app.py"]
+ENV PYTHONPATH /app
+
+CMD ["python", "./src/app.py"]
